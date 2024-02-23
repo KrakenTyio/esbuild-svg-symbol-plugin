@@ -9,8 +9,6 @@ extraction.
 - [Why it's cool](#why-its-cool)
 - [Installation](#installation)
 - [Configuration](#configuration)
-    - [`symbolId`](#symbol-id)
-    - [`symbolRegExp`](#symbol-regexp)
     - [`esModule`](#es-module)
     - [Runtime configuration](#runtime-configuration)
         - [`spriteModule`](#sprite-module)

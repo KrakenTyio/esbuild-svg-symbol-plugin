@@ -1,6 +1,6 @@
 {
   "name": "esbuild-svg-symbol-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Esbuild plugin for load svg icons to symbol in html for quick and easy import",
   "main": "lib/esbuild-svg-symbol-plugin.js",
   "scripts": {},
@@ -30,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/KrakenTyio/esbuild-svg-symbol-plugin/issues"
   },
-  "homepage": "https://github.com/KrakenTyio/esbuild-svg-symbol-plugin#readme"
+  "homepage": "https://github.com/KrakenTyio/esbuild-svg-symbol-plugin#readme",
+  "directories": {
+    "lib": "lib"
+  }
 }
