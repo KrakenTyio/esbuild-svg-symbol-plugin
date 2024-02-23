@@ -4,9 +4,16 @@
   "description": "Esbuild plugin for load svg icons to symbol in html for quick and easy import",
   "main": "lib/esbuild-svg-symbol-plugin.js",
   "scripts": {},
-  "keywords": ["svg", "symbol", "svg symbol", "svg stack", "esbuild", "esbuild plugin"],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "svg",
+    "symbol",
+    "svg symbol",
+    "svg stack",
+    "esbuild",
+    "esbuild plugin"
+  ],
+  "author": "KrakenTyio - Bart s.r.o.",
+  "license": "MIT",
   "dependencies": {
     "svg-baker": "~1.7.0",
     "svg-baker-runtime": "~1.4.7",
@@ -15,5 +22,13 @@
   },
   "devDependencies": {
     "typescript": "^5.1.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrakenTyio/esbuild-svg-symbol-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KrakenTyio/esbuild-svg-symbol-plugin/issues"
+  },
+  "homepage": "https://github.com/KrakenTyio/esbuild-svg-symbol-plugin#readme"
 }
