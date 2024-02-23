@@ -101,8 +101,8 @@ via `spriteModule` option. Check example below.
 Path to sprite module that will be compiled and executed at runtime.
 By default it depends on [`target`](https://webpack.js.org/configuration/target) webpack config option:
 
-- `svg-sprite-loader/runtime/browser-sprite.build` for 'web' target.
-- `svg-sprite-loader/runtime/sprite.build` for other targets.
+- `esbuild-svg-symbol-plugin/runtime/browser-sprite.build` for 'web' target.
+- `esbuild-svg-symbol-plugin/runtime/sprite.build` for other targets.
 
 If you need custom behavior, use this option to specify a path of your sprite implementation module.
 Path will be resolved relative to the current webpack build folder, e.g. `utils/sprite.js` placed in current project dir
